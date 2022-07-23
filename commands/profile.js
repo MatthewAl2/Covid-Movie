@@ -8,7 +8,7 @@ module.exports = {
 		const row = new ActionRowBuilder()
 			.addComponents(
 				new SelectMenuBuilder()
-					.setCustomId('select')
+					.setCustomId('profile')
 					.setPlaceholder('Nothing selected')
 					.addOptions(
 						{
@@ -23,6 +23,6 @@ module.exports = {
 						},
 					),
 			);
-		await interaction.reply({ content: 'Pong!', components: [row] });
+		await interaction.reply({content : 'pong' , components: [row]});
 	},
 };
