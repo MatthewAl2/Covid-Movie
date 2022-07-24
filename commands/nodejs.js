@@ -11,7 +11,7 @@ module.exports = {
 	.setTitle('NodeJS')
 	.setURL('https://nodejs.org/en/download/')
 	.setAuthor({ name: 'Ryan Dahl', iconURL: 'https://i.imgur.com/nXtedh7.png', url: 'https://discord.js.org' })
-	.setDescription('NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.')
+	.setDescription('Node. js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It runs on the V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.')
 	.setThumbnail('https://i.imgur.com/nXtedh7.png')
 	.setImage('https://i.imgur.com/nXtedh7.png')
 	.setTimestamp()
