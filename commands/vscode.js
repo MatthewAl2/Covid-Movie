@@ -3,19 +3,19 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('numpy')
+		.setName('vscode')
 		.setDescription('Description of Numpy and Installation'),
 	async execute(interaction) {
 		const exampleEmbed = new EmbedBuilder()
 	.setColor(0x0099FF)
-	.setTitle('Numpy')
-	.setURL('https://numpy.org/install/')
-	.setAuthor({ name: 'Jim Hugunim', iconURL: 'https://i.imgur.com/ic4jjxtt.png', url: 'https://discord.js.org' })
-	.setDescription('NumPy, which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. Using NumPy, mathematical and logical operations on arrays can be performed.')
-	.setThumbnail('https://i.imgur.com/ic4jjxtt.png')
-	.setImage('https://i.imgur.com/ic4jjxtt.png')
+	.setTitle('VSCode')
+	.setURL('https://code.visualstudio.com/download')
+	.setAuthor({ name: 'Erich Gamma', iconURL: 'https://i.imgur.com/TRZIO2e.png', url: 'https://discord.js.org' })
+	.setDescription('Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET).')
+	.setThumbnail('https://i.imgur.com/TRZIO2e.png')
+	.setImage('https://i.imgur.com/TRZIO2e.png')
 	.setTimestamp()
-	.setFooter({ text: 'logo', iconURL: 'https://i.imgur.com/ic4jjxtt.png' });
+	.setFooter({ text: 'logo', iconURL: 'https://i.imgur.com/TRZIO2e.png' });
 
 	await interaction.reply({ embeds: [exampleEmbed] });
 	},
